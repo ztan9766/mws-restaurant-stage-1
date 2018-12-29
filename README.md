@@ -1,12 +1,16 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+### _Three Stage Course Material Project - Restaurant Reviews_
 
-## Project Overview: Stage 1
+## Introduction
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+This project is modify this restaurant review website into a responsive website that all pages will adapt different size of screen.
+All the content should be displayed clearly in different screen size.
+No image or text overlap happened in this website.
+
+CSS3 is used to make responsive design, make sure your browser support CSS3 features.
+
+This website also runs server worker with it, that it will display static resources normally when no internet connection happened after you visited those pages.
 
 ## How to run this website 
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-   * Note -  For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter `python -m http.server 8000`.
+Change directory to project folder
+Use command `python -m SimpleHTTPServer 8000` or `python3 -m http.server 8000` to start the test server.
